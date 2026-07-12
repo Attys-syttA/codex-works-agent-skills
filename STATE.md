@@ -27,6 +27,9 @@ Last updated: 2026-07-12
 - `ggshield secret scan repo .` passed with no secrets found.
 - `git diff --check`, protected-repository audit, shared workspace baseline/encoding checks, and parent-policy hash parity passed.
 - `E-SPER` remained clean and unchanged.
+- Initial GitHub `validate` and `encoding-check` runs passed. The custom
+  GitGuardian job exposed a missing repository API-key secret; the branch now
+  uses GitGuardian when configured and a commit-pinned Gitleaks fallback otherwise.
 
 ## Next step
 

@@ -24,8 +24,8 @@
     },
     {
       "path": ".github/workflows/secret-scan.yml",
-      "sha256": "e42eed553bb57849d2095dfe983028a772f331c295bfa1a7d72bb777a28e50dc",
-      "bytes": 366
+      "sha256": "4b9ab8da7dc9efc548468d8636f99efff70ed13bf11ed3b1eb030b9b2027b538",
+      "bytes": 691
     },
     {
       "path": ".github/workflows/validate.yml",
@@ -44,8 +44,8 @@
     },
     {
       "path": "CHANGELOG.dev.md",
-      "sha256": "235923756f5b9de91af44554faa9b19448a9101f9ea7bd917bb4b13f2868fc71",
-      "bytes": 1241
+      "sha256": "f179808e7d1c5b8041d5abd61072188752512cc37b7f8130e5e9f4e77a36b813",
+      "bytes": 1488
     },
     {
       "path": "docs/ACTIVATION_MATRIX.md",
@@ -224,8 +224,8 @@
     },
     {
       "path": "STATE.md",
-      "sha256": "844179dea4ae280a305d78983fe81007a3abc0c7ecd3e00d348cb9cbffb402f9",
-      "bytes": 1752
+      "sha256": "a16d78a1649d852fef77301a5c30dd74b65bc2bc2d37d1a15ed4373af9106079",
+      "bytes": 1987
     },
     {
       "path": "tools/audit-skill-content.ps1",

@@ -18,3 +18,6 @@
   the GitHub-created MIT license, and prepared the initial plugin publication branch.
 - Added the upstream `addyosmani/agent-skills` repository and pinned commit as
   explicit README provenance links.
+- Fixed the secret-scan workflow for new repositories without a configured
+  GitGuardian API key: use GitGuardian when the secret exists, otherwise run a
+  commit-pinned Gitleaks fallback. The local and external GitGuardian checks remain enabled.
