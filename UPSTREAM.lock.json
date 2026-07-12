@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-07-12",
+  "upstream": {
+    "repository": "https://github.com/addyosmani/agent-skills.git",
+    "commit": "849850e03972c84a909286e8fddbdc8166600b0f",
+    "commit_date": "2026-07-11T10:52:07-07:00",
+    "license": "MIT",
+    "github_verification": {
+      "verified": true,
+      "reason": "valid"
+    },
+    "local_signature_check": "signature-present-public-key-unavailable"
+  },
+  "review_evidence": {
+    "archive_name": "agent-skills-0.6.3.zip",
+    "archive_sha256": "d474e13b9d14251d454033734b261d0b07631f7224b12e2ca851c3a5a6ade275",
+    "canonical": false,
+    "selected_file_mismatches": 6
+  },
+  "files": [
+    {
+      "upstream_path": "skills/source-driven-development/SKILL.md",
+      "git_blob_sha1": "9ef02877e446bd2d31862006ef4e3a79d5c38b9a",
+      "local_path": "plugins/codex-works-engineering-skills/skills/source-driven-development/SKILL.md",
+      "local_sha256": "0f404d6ccd46992120c5a987ae20fe708d8fe14903890b1da316603a5b0331f4",
+      "modified": true,
+      "modification_reason": "Narrowed primary-source workflow and added scope, privacy, authority, and execution gates."
+    },
+    {
+      "upstream_path": "skills/incremental-implementation/SKILL.md",
+      "git_blob_sha1": "f18acb64e8152c68554b3359203f52afb5715a93",
+      "local_path": "plugins/codex-works-engineering-skills/skills/incremental-implementation/SKILL.md",
+      "local_sha256": "b1762f2d1956b5736cc6faba3eeb363883a6c4a9d32f844f65230a8efaa9b462",
+      "modified": true,
+      "modification_reason": "Removed automatic commit and agent behavior; retained safe slice and validation workflow."
+    },
+    {
+      "upstream_path": "skills/test-driven-development/SKILL.md",
+      "git_blob_sha1": "c96a67f4560121a4761baad2efeaa51ef1602d7a",
+      "local_path": "plugins/codex-works-engineering-skills/skills/test-driven-development/SKILL.md",
+      "local_sha256": "4e4ffade3176c5486f8c1de147e49c105b1e612ac323653507b7ecc42bf46a2d",
+      "modified": true,
+      "modification_reason": "Removed subagent guidance and constrained browser/tool use to existing approved surfaces."
+    },
+    {
+      "upstream_path": "skills/api-and-interface-design/SKILL.md",
+      "git_blob_sha1": "012c8b68ccc5eca5924c2686202700387b38b72f",
+      "local_path": "plugins/codex-works-engineering-skills/skills/api-and-interface-design/SKILL.md",
+      "local_sha256": "6c979135f8fc1e71faa97db52dd590a9c8ac4e3e2d5df910ab10e6478d38113d",
+      "modified": true,
+      "modification_reason": "Condensed contract design guidance and added compatibility, authorization, and migration gates."
+    },
+    {
+      "upstream_path": "skills/security-and-hardening/SKILL.md",
+      "git_blob_sha1": "2ddd1352d85fc7f7122280c930a6da9127bd9b65",
+      "local_path": "plugins/codex-works-engineering-skills/skills/security-and-hardening/SKILL.md",
+      "local_sha256": "0bddbed0e4ea7a19d837fe63d1e1ce07e3fc737f20da3a68b4c2dc1766c9fe86",
+      "modified": true,
+      "modification_reason": "Preserved threat-first and supply-chain guidance while prohibiting autonomous scans, fixes, and secret access."
+    },
+    {
+      "upstream_path": "skills/debugging-and-error-recovery/SKILL.md",
+      "git_blob_sha1": "51743d47c2f9ddb699a6d8084c29b709d017b529",
+      "local_path": "plugins/codex-works-engineering-skills/skills/debugging-and-error-recovery/SKILL.md",
+      "local_sha256": "9af343d71b6b79edb57aebdc84da8c11db645d8fa4d1101da1dc4991cb5b25fb",
+      "modified": true,
+      "modification_reason": "Retained evidence-first triage and added recovery, untrusted-output, and external-state stop gates."
+    },
+    {
+      "upstream_path": "skills/performance-optimization/SKILL.md",
+      "git_blob_sha1": "fbfcc55773b345bb0edec75bc22bd71629cf2fb5",
+      "local_path": "plugins/codex-works-engineering-skills/skills/performance-optimization/SKILL.md",
+      "local_sha256": "61bd27c9112a7505628a813f105bf2b9365555c2cf31eb6c1df38519d627b65a",
+      "modified": true,
+      "modification_reason": "Removed downloading commands and required measured evidence, sanitized traces, and correctness preservation."
+    },
+    {
+      "upstream_path": "skills/deprecation-and-migration/SKILL.md",
+      "git_blob_sha1": "765bdde6329dbd5fd22d5d3fc2c185737fc9f908",
+      "local_path": "plugins/codex-works-engineering-skills/skills/deprecation-and-migration/SKILL.md",
+      "local_sha256": "5f33c548752ded605e80096322993f6cf9260ebc5cd550daad585dea69bfc1f5",
+      "modified": true,
+      "modification_reason": "Made the skill explicit-only and separated planning from migration, removal, and data-changing authority."
+    },
+    {
+      "upstream_path": "skills/code-review-and-quality/SKILL.md",
+      "git_blob_sha1": "01c4ebe0424eb25109d0802c46e8d8667947df9b",
+      "local_path": "plugins/codex-works-engineering-skills/skills/code-review-and-quality/SKILL.md",
+      "local_sha256": "00ff5d56790183bccc067e6ac7698e76ac1eb7f58819ea2a23d23c28a67c1a56",
+      "modified": true,
+      "modification_reason": "Made review explicit and read-only; removed multi-model invocation and unauthorized cleanup behavior."
+    },
+    {
+      "upstream_path": "skills/git-workflow-and-versioning/SKILL.md",
+      "git_blob_sha1": "6b33aefe602eee4d43ae77e12329827eba5b70cc",
+      "local_path": "plugins/codex-works-engineering-skills/skills/git-workflow-and-versioning/SKILL.md",
+      "local_sha256": "74039654f68a6bb181686a4631d24d96d7129d6e9b0e48f54c4cc2a40ef38763",
+      "modified": true,
+      "modification_reason": "Made every consequential Git operation explicit and removed destructive reset, automatic cleanup, tag, and push defaults."
+    },
+    {
+      "upstream_path": "skills/documentation-and-adrs/SKILL.md",
+      "git_blob_sha1": "061c5e1a0a9faf07bd8c65bbd03141fab7b044bd",
+      "local_path": "plugins/codex-works-engineering-skills/skills/documentation-and-adrs/SKILL.md",
+      "local_sha256": "c35d2a521243a98d91fce909140c066adcc7192b2c5615e739b4ae97f71e7857",
+      "modified": true,
+      "modification_reason": "Aligned documentation guidance with AGENTS policy and removed product-specific instruction-file creation."
+    },
+    {
+      "upstream_path": "references/definition-of-done.md",
+      "git_blob_sha1": "35e39f9e15f6dd0ff4725a6e5cbce7f2aa69064a",
+      "local_path": "plugins/codex-works-engineering-skills/references/definition-of-done.md",
+      "local_sha256": "41a470e6857d68b69495505f8abb0c9571532719d59a91b758c997693f25ed21",
+      "modified": true,
+      "modification_reason": "Condensed completion gates and added authority, privacy, inventory, and external-state checks."
+    },
+    {
+      "upstream_path": "references/testing-patterns.md",
+      "git_blob_sha1": "b97de3aa25072985c45102798e16c9d79e9dbc02",
+      "local_path": "plugins/codex-works-engineering-skills/references/testing-patterns.md",
+      "local_sha256": "c3ce7f48e2966ae48ea73615d1239b175d9faf948ed7ec5a54b4f08919b52af7",
+      "modified": true,
+      "modification_reason": "Retained test patterns with accessible selectors and removed automatic tool download behavior."
+    },
+    {
+      "upstream_path": "references/security-checklist.md",
+      "git_blob_sha1": "baf9a7314c6e711a4f91957872aba9dbf1e58bb1",
+      "local_path": "plugins/codex-works-engineering-skills/references/security-checklist.md",
+      "local_sha256": "5103f748bfb02f1c6fdaeb68dc279524ae704cb91e40d40ee9eb2d7f928b8407",
+      "modified": true,
+      "modification_reason": "Preserved manager-aware supply-chain and boundary checks while disallowing autonomous fixes and secret access."
+    },
+    {
+      "upstream_path": "references/performance-checklist.md",
+      "git_blob_sha1": "86a41496bf9c4c58b60be30fdf137b8bc813fad8",
+      "local_path": "plugins/codex-works-engineering-skills/references/performance-checklist.md",
+      "local_sha256": "31652303ff109d73c6ac46a7bd6452074e54c4e76654e14d3f4e1c88c431f142",
+      "modified": true,
+      "modification_reason": "Condensed measurement gates and prohibited unapproved profilers, downloads, production traces, and private data export."
+    }
+  ]
+}

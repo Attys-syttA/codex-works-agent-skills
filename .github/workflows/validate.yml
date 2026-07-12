@@ -1,0 +1,26 @@
+name: Validate plugin
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch pinned upstream without executing it
+        shell: pwsh
+        run: |
+          git clone --filter=blob:none --no-checkout https://github.com/addyosmani/agent-skills.git .worktree-cache/agent-skills
+          git -C .worktree-cache/agent-skills checkout --detach 849850e03972c84a909286e8fddbdc8166600b0f
+      - name: Validate structure and curated content
+        shell: pwsh
+        run: |
+          ./tools/validate-plugin.ps1
+          ./tools/audit-skill-content.ps1
+          ./tools/verify-upstream.ps1
+          ./tools/build-inventory.ps1 -Check

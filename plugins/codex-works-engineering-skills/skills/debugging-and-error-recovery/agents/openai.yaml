@@ -1,0 +1,7 @@
+interface:
+  display_name: "Debugging and Error Recovery"
+  short_description: "Diagnose failures from evidence and verify recovery"
+  default_prompt: "Use $debugging-and-error-recovery to diagnose this failure from evidence and verify the fix."
+
+policy:
+  allow_implicit_invocation: true

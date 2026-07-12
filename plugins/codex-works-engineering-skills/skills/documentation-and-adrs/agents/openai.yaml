@@ -1,0 +1,7 @@
+interface:
+  display_name: "Documentation and ADRs"
+  short_description: "Keep user docs and architecture decisions accurate"
+  default_prompt: "Use $documentation-and-adrs to align documentation with this verified behavior change."
+
+policy:
+  allow_implicit_invocation: true

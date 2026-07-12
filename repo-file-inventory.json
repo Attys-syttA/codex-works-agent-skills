@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "generated_from": "git-index-and-untracked",
+  "files": [
+    {
+      "path": ".agents/plugins/marketplace.json",
+      "sha256": "5dbc5673338677858447ce25b47854a2bccb84e910917f8791e932b6bfe5a35c",
+      "bytes": 424
+    },
+    {
+      "path": ".editorconfig",
+      "sha256": "fbb87bedc2547f38f12c655e34a4b44f568aa0e5e40d77b14d75bb5a1079a347",
+      "bytes": 151
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "b0971847edf4ed23f0a2d8222d4c884e9bf1ada8fc69b2a8617505ef67ef4183",
+      "bytes": 110
+    },
+    {
+      "path": ".github/workflows/encoding-check.yml",
+      "sha256": "f7b4e9e5785bf40550de74994de4bd750ec77a40329e1025b3b285ce36ff597b",
+      "bytes": 844
+    },
+    {
+      "path": ".github/workflows/secret-scan.yml",
+      "sha256": "4b9ab8da7dc9efc548468d8636f99efff70ed13bf11ed3b1eb030b9b2027b538",
+      "bytes": 691
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "sha256": "78b2e2026b2e42ad03b70c78d02ccc042ae368c565334c20d2d578706f2967f5",
+      "bytes": 751
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "309735b18254e51308bbffc7696ae6cff9a843cfe5d86297193e31168d07b7ea",
+      "bytes": 29
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "15059c1b5a68be9c8f6645edc19ba51d87a4433f7c3ccfd57c0a2a864f88e212",
+      "bytes": 1495
+    },
+    {
+      "path": "CHANGELOG.dev.md",
+      "sha256": "f179808e7d1c5b8041d5abd61072188752512cc37b7f8130e5e9f4e77a36b813",
+      "bytes": 1488
+    },
+    {
+      "path": "docs/ACTIVATION_MATRIX.md",
+      "sha256": "d5df8bd05ae027dbe82c5dbecda5b7eb3ecb20e7ffcd68ff02b72768ef572a4e",
+      "bytes": 1617
+    },
+    {
+      "path": "docs/SECURITY_MODEL.md",
+      "sha256": "337a88882c5d565e2d9f904119fa01e390bb7e526bd8cfa689ea26ef5b562472",
+      "bytes": 2531
+    },
+    {
+      "path": "docs/SOURCE_REVIEW.md",
+      "sha256": "8cd50cdae1f189d91a4b7ce83a187dba692056382b7512377687f9d6a67241ef",
+      "bytes": 1830
+    },
+    {
+      "path": "docs/UPSTREAM_UPDATE_PROCEDURE.md",
+      "sha256": "f8b61f1392ffb0f35dbff15490146c56f9860a604fd5e72e27296de2b1e681eb",
+      "bytes": 1193
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "7a7fd306d50d01381363932ed44c89f766ac02aa90387cb39ede3d0c51dc4b72",
+      "bytes": 1068
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/.codex-plugin/plugin.json",
+      "sha256": "ee09dcbd734d8ad312cb89aa0586d07c7d9307fd4fe088d737ed30e77ba3dec9",
+      "bytes": 896
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/LICENSE.upstream",
+      "sha256": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7",
+      "bytes": 1068
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/references/definition-of-done.md",
+      "sha256": "41a470e6857d68b69495505f8abb0c9571532719d59a91b758c997693f25ed21",
+      "bytes": 1583
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/references/performance-checklist.md",
+      "sha256": "31652303ff109d73c6ac46a7bd6452074e54c4e76654e14d3f4e1c88c431f142",
+      "bytes": 1829
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/references/security-checklist.md",
+      "sha256": "5103f748bfb02f1c6fdaeb68dc279524ae704cb91e40d40ee9eb2d7f928b8407",
+      "bytes": 2838
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/references/testing-patterns.md",
+      "sha256": "c3ce7f48e2966ae48ea73615d1239b175d9faf948ed7ec5a54b4f08919b52af7",
+      "bytes": 2368
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/api-and-interface-design/agents/openai.yaml",
+      "sha256": "3edc1a2b2df6193596cd62601e961edb6b739517d741d7258039969c20679586",
+      "bytes": 278
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/api-and-interface-design/SKILL.md",
+      "sha256": "6c979135f8fc1e71faa97db52dd590a9c8ac4e3e2d5df910ab10e6478d38113d",
+      "bytes": 1947
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/code-review-and-quality/agents/openai.yaml",
+      "sha256": "91e8a4993f0a424b50e7fad3f4392724943a14f739453b450f6e66e2dc2dd891",
+      "bytes": 273
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/code-review-and-quality/SKILL.md",
+      "sha256": "00ff5d56790183bccc067e6ac7698e76ac1eb7f58819ea2a23d23c28a67c1a56",
+      "bytes": 1766
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/debugging-and-error-recovery/agents/openai.yaml",
+      "sha256": "2be53f546a39ad30c25fdb5950cf97d87ed9141e36ed4b4c8889638063b3dd68",
+      "bytes": 289
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/debugging-and-error-recovery/SKILL.md",
+      "sha256": "9af343d71b6b79edb57aebdc84da8c11db645d8fa4d1101da1dc4991cb5b25fb",
+      "bytes": 1919
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/deprecation-and-migration/agents/openai.yaml",
+      "sha256": "fa70f91bf0aee198d5cf716623148947090365064b2a46a8b02dd8ef8f4c8c84",
+      "bytes": 283
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/deprecation-and-migration/SKILL.md",
+      "sha256": "5f33c548752ded605e80096322993f6cf9260ebc5cd550daad585dea69bfc1f5",
+      "bytes": 1737
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/documentation-and-adrs/agents/openai.yaml",
+      "sha256": "31ec98d6018346ff28eccbecf7c1d3f2de55965eeaa2debfa550f7e77fc5cb01",
+      "bytes": 276
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/documentation-and-adrs/SKILL.md",
+      "sha256": "c35d2a521243a98d91fce909140c066adcc7192b2c5615e739b4ae97f71e7857",
+      "bytes": 2081
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/git-workflow-and-versioning/agents/openai.yaml",
+      "sha256": "1416bd0b3dac71792d359b46be4bb43bbc2e96c7deefe3b6df7a4bd75dbb4405",
+      "bytes": 290
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/git-workflow-and-versioning/SKILL.md",
+      "sha256": "74039654f68a6bb181686a4631d24d96d7129d6e9b0e48f54c4cc2a40ef38763",
+      "bytes": 1754
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/incremental-implementation/agents/openai.yaml",
+      "sha256": "acace9fb9b71aa984fe061907e92fccb8f69be74077fe641a4d2c063fee30ae8",
+      "bytes": 287
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/incremental-implementation/SKILL.md",
+      "sha256": "b1762f2d1956b5736cc6faba3eeb363883a6c4a9d32f844f65230a8efaa9b462",
+      "bytes": 2217
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/performance-optimization/agents/openai.yaml",
+      "sha256": "66a675be6cc80dce36fe548e011be3ab52c0f24074bfc622e03678eed1df820e",
+      "bytes": 285
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/performance-optimization/SKILL.md",
+      "sha256": "61bd27c9112a7505628a813f105bf2b9365555c2cf31eb6c1df38519d627b65a",
+      "bytes": 1983
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/security-and-hardening/agents/openai.yaml",
+      "sha256": "4323abcc2adcc34de2135c64d926cebaa054d43e66f367d98eff48179d9f987f",
+      "bytes": 280
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/security-and-hardening/SKILL.md",
+      "sha256": "0bddbed0e4ea7a19d837fe63d1e1ce07e3fc737f20da3a68b4c2dc1766c9fe86",
+      "bytes": 2654
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/source-driven-development/agents/openai.yaml",
+      "sha256": "4cd0ca186712f4eceeb3d02e1c85db9e1a1494b9e259cc686cffba2aca6a691f",
+      "bytes": 299
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/source-driven-development/SKILL.md",
+      "sha256": "0f404d6ccd46992120c5a987ae20fe708d8fe14903890b1da316603a5b0331f4",
+      "bytes": 2412
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/test-driven-development/agents/openai.yaml",
+      "sha256": "3a76d4513dd69b516d3b9bfdce73f3ff7e1b9ecd29657dcdd947dae4d0c5ad1e",
+      "bytes": 282
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/test-driven-development/SKILL.md",
+      "sha256": "4e4ffade3176c5486f8c1de147e49c105b1e612ac323653507b7ecc42bf46a2d",
+      "bytes": 1988
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/THIRD_PARTY_NOTICES.md",
+      "sha256": "5cb370ec5883960925c1d16f06448550b4b66888dd94bab3defa798023310117",
+      "bytes": 790
+    },
+    {
+      "path": "README.md",
+      "sha256": "e33dbb66a06d34394c27bf2200535e78b4e106909edfc0353ad0f8462f1e5c64",
+      "bytes": 1989
+    },
+    {
+      "path": "STATE.md",
+      "sha256": "a16d78a1649d852fef77301a5c30dd74b65bc2bc2d37d1a15ed4373af9106079",
+      "bytes": 1987
+    },
+    {
+      "path": "tools/audit-skill-content.ps1",
+      "sha256": "6f3f15d1945b45a015f7340285fe39f403cab480fb16785b53648b506df86498",
+      "bytes": 1260
+    },
+    {
+      "path": "tools/build-inventory.ps1",
+      "sha256": "18c916468a1d607bf21d6eb944fe9071559db46f04e62803cd9714c4dad72349",
+      "bytes": 1526
+    },
+    {
+      "path": "tools/validate-plugin.ps1",
+      "sha256": "2c615418613a454a240c8d4c6f52ee1d691839f5a7f948a712310449a0c015c9",
+      "bytes": 5957
+    },
+    {
+      "path": "tools/verify-upstream.ps1",
+      "sha256": "7eb48aa46ba443eb1451903f75e98e5c381b80e85150ba29694d15d84b1855ad",
+      "bytes": 2181
+    },
+    {
+      "path": "UPSTREAM.lock.json",
+      "sha256": "d343c0815bcdb29760e7553392a9120ec23572d059fafee2a58da69bc2c2d12c",
+      "bytes": 8086
+    }
+  ]
+}
