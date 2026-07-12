@@ -1,0 +1,7 @@
+interface:
+  display_name: "Package and Inventory Sync"
+  short_description: "Keep inventories runtime copies and packages aligned"
+  default_prompt: "Use $workspace-package-inventory-sync to verify source inventory and package synchronization."
+
+policy:
+  allow_implicit_invocation: true

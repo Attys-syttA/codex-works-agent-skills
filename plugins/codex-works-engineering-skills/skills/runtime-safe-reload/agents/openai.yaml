@@ -1,0 +1,7 @@
+interface:
+  display_name: "Runtime Safe Reload"
+  short_description: "Reload local runtimes without interrupting active work"
+  default_prompt: "Use $runtime-safe-reload to decide whether this local runtime can be restarted safely."
+
+policy:
+  allow_implicit_invocation: true

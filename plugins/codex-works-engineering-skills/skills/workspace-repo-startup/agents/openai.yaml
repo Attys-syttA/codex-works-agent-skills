@@ -1,0 +1,7 @@
+interface:
+  display_name: "Workspace Repo Startup"
+  short_description: "Resolve policy scope and repository state safely"
+  default_prompt: "Use $workspace-repo-startup to establish repository scope and safe starting state."
+
+policy:
+  allow_implicit_invocation: true

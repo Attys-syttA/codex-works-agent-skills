@@ -2,6 +2,20 @@
 
 ## 2026-07-12
 
+- Began version `1.2.0` with `workspace-discord-closeout-notification`.
+- Added a parent-authorized, bot-running-gated closeout workflow that delegates delivery to the audited shared helper and keeps tokens/channel IDs outside the plugin.
+- Validated live delivery to the configured E-SPER and plugin-repository channels; the initial Discord `40333` Cloudflare block was fixed by the required `DiscordBot (URL, version)` User-Agent in the shared helper.
+- Added the missing-channel interaction: ask the user to create/check the repository channel and provide its ID, then validate and store a conflict-free mapping in the bot's ignored SQLite database.
+- Updated the README to distinguish eleven upstream-derived skills from nine locally authored workspace skills and document the external helper boundary without exposing runtime configuration.
+- Began version `1.1.0` by extracting reusable procedures from codex_works
+  workspace and repository `AGENTS.md` files into eight locally authored skills.
+- Added repository startup, Windows MCP hygiene, repository bootstrap,
+  cross-repository coordination, task closeout, rendered frontend QA, and
+  package/inventory synchronization workflows.
+- Added `runtime-safe-reload` for active-work-aware local engine and application reload decisions.
+- Replaced only successfully smoke-tested reusable procedures in the parent, E-SPER, email-header-analyzer, and WD-HUD policies with explicit skill triggers; retained their authority, safety, paths, commands, and project-specific invariants.
+- Kept authority, precedence, secrets, destructive-operation, repository-role,
+  runtime, versioning, and local command rules in `AGENTS.md` scope.
 - Initialized the standalone Codex Works local marketplace repository.
 - Added `codex-works-engineering-skills` version `1.0.0`.
 - Curated eleven skills and four shared references from pinned upstream commit

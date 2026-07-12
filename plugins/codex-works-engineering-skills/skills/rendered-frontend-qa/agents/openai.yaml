@@ -1,0 +1,7 @@
+interface:
+  display_name: "Rendered Frontend QA"
+  short_description: "Validate rendered UI across browser and viewport states"
+  default_prompt: "Use $rendered-frontend-qa to verify this UI in a real rendered browser flow."
+
+policy:
+  allow_implicit_invocation: true

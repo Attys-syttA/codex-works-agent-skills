@@ -12,6 +12,15 @@
 | `debugging-and-error-recovery` | Reproducible failure or unexpected behavior | Speculative cleanup |
 | `performance-optimization` | Measured or explicitly reported bottleneck | Unmeasured micro-optimization |
 | `documentation-and-adrs` | Architecture, public interface, operations, or user-visible change | Unrelated prose |
+| `workspace-repo-startup` | Beginning repository work or unclear execution scope | Non-repository conversation |
+| `windows-mcp-startup-hygiene` | Windows session startup or MCP transport concern | Non-Windows work without MCP relevance |
+| `workspace-repo-bootstrap` | New repository or explicit baseline normalization | Ordinary feature work in an established repo |
+| `workspace-cross-repo-coordination` | More than one repository is read/changed/validated | Single-repository work |
+| `workspace-task-closeout` | Substantial task, release, package, or multi-session closeout | Early implementation with no completed slice |
+| `rendered-frontend-qa` | User-facing rendered web UI change | Backend-only or prose-only change |
+| `workspace-package-inventory-sync` | File-role, inventory, runtime mirror, or package parity change | Source change with no derived artifact contract |
+| `runtime-safe-reload` | Changed code may leave a local runtime or engine stale | No running consumer of the changed code |
+| `workspace-discord-closeout-notification` | A material repository task completes, pauses, or becomes blocked under an authorizing parent policy | Ordinary questions, progress updates, or work outside codex_works |
 
 ## Explicit-only
 

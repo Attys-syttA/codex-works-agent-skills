@@ -1,0 +1,7 @@
+interface:
+  display_name: "Workspace Repo Bootstrap"
+  short_description: "Create a safe documented repository baseline"
+  default_prompt: "Use $workspace-repo-bootstrap to establish a new codex_works repository baseline."
+
+policy:
+  allow_implicit_invocation: true

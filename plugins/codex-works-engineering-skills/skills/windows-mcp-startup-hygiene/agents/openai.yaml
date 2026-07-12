@@ -1,0 +1,7 @@
+interface:
+  display_name: "Windows MCP Startup Hygiene"
+  short_description: "Inspect MCP process and transport health safely"
+  default_prompt: "Use $windows-mcp-startup-hygiene to inspect Windows MCP health before repository work."
+
+policy:
+  allow_implicit_invocation: true

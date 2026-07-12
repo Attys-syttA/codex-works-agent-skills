@@ -4,20 +4,25 @@ Last updated: 2026-07-12
 
 ## Current state
 
-- Plugin: `codex-works-engineering-skills` version `1.0.0`.
+- Plugin: `codex-works-engineering-skills` base version `1.2.0`.
 - Marketplace: `codex-works-local`.
 - Upstream pinned to `849850e03972c84a909286e8fddbdc8166600b0f`.
-- Eleven curated skills: eight implicit-capable and three explicit-only.
+- Twenty curated skills: seventeen implicit-capable and three explicit-only.
 - Installed plugin contains no executable code, hooks, MCPs, apps, commands, or personas.
 - Remote: `origin` points to `Attys-syttA/codex-works-agent-skills`; publication branch is `agent/initial-engineering-skills` based on the GitHub-created MIT-license commit.
 
 ## Validation
 
-- Repository plugin structure and content audits passed.
+- The plugin is installed and enabled as `1.2.0+codex.20260712160310`.
 - Online provenance verification passed for all 15 curated upstream files.
 - OpenAI plugin validator passed.
-- OpenAI skill validator passed for all 11 skills.
-- Marketplace/plugin installation succeeded; CLI reports `installed, enabled`, version `1.0.0`.
+- OpenAI skill validator passed for all 20 skills.
+- Marketplace/plugin installation exposes the cachebuster-reinstalled `1.1.0` build.
+- All 19 skill validators, plugin structure/content audit, 67-file deterministic inventory, upstream provenance, GitGuardian scan, and `git diff --check` passed.
+- Fresh E-SPER read-only smoke selected `workspace-repo-startup`, `rendered-frontend-qa`, and `workspace-task-closeout` after the AGENTS cleanup.
+- The audited shared helper recognized the supervised `CodexBot.exe`, rejected credential-like content, and delivered live sanitized test messages to the configured E-SPER and plugin-repository channels after adding Discord's required User-Agent.
+- Repository channels are resolved from the bot's existing read-only SQLite registration; a separate ignored mapping is needed only as an explicit override.
+- Missing mappings now trigger a user prompt; an explicitly supplied channel ID can be registered only after Discord access/guild/type validation and SQLite conflict checks.
 - Fresh read-only CLI smoke test resolved all 11 explicit skills and preserved authority boundaries.
 - Version-sensitive implicit smoke test selected `source-driven-development`.
 - Outside-workspace trivial spelling smoke test remained a one-word response.

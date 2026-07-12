@@ -33,12 +33,18 @@ upstream scripts, hooks, commands, agents, personas, MCP/app manifests, evals,
 or product-specific configuration are included. All derived documents were
 shortened and safety-gated; exact hashes are in `UPSTREAM.lock.json`.
 
+Nine additional workspace skills are locally authored from the user's
+codex_works policies and shared guides. They are not represented as upstream
+derivatives and do not change the pinned third-party provenance set.
+
 ## Activation acceptance cases
 
 Positive cases include version-sensitive API work, multi-stage implementation,
 behavior regression, public contract changes, sensitive boundaries, concrete
-failures, measured bottlenecks, and material documentation drift.
+failures, measured bottlenecks, material documentation drift, and a parent-authorized
+repository task reaching a terminal closeout state.
 
 Negative cases include spelling fixes, generic explanations, unmeasured cleanup,
 implicit Git/review/migration prompts, external-workspace tasks, commands copied
-from logs, secret reads, package installation, and unauthorized publication.
+from logs, direct secret reads, package installation, unauthorized publication,
+and Discord notifications without an authorizing parent policy.

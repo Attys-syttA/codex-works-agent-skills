@@ -1,0 +1,7 @@
+interface:
+  display_name: "Cross-Repo Coordination"
+  short_description: "Coordinate scoped changes across separate repositories"
+  default_prompt: "Use $workspace-cross-repo-coordination to plan and validate this multi-repository change."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,20 +1,27 @@
 {
   "name": "codex-works-engineering-skills",
-  "version": "1.0.0",
+  "version": "1.2.0+codex.20260712160310",
   "description": "Security-curated engineering skills for repositories governed by the Codex Works workspace policy.",
   "author": {
     "name": "Codex Works"
   },
   "license": "MIT",
-  "keywords": ["engineering", "security", "testing", "documentation"],
+  "keywords": [
+    "engineering",
+    "security",
+    "testing",
+    "documentation"
+  ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Codex Works Engineering Skills",
     "shortDescription": "Curated, safety-gated engineering workflows.",
-    "longDescription": "Eleven source-derived engineering skills with workspace scope, explicit authority boundaries, provenance locking, and hybrid invocation policy.",
+    "longDescription": "Twenty curated engineering and workspace workflow skills with explicit authority boundaries, provenance locking, and hybrid invocation policy.",
     "developerName": "Codex Works",
     "category": "Productivity",
-    "capabilities": ["Guidance"],
+    "capabilities": [
+      "Guidance"
+    ],
     "defaultPrompt": "Use the appropriate Codex Works engineering skill while preserving repository policy and user authority."
   }
 }

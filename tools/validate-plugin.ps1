@@ -50,6 +50,15 @@ $expected = [ordered]@{
     'debugging-and-error-recovery' = $true
     'performance-optimization' = $true
     'documentation-and-adrs' = $true
+    'workspace-repo-startup' = $true
+    'windows-mcp-startup-hygiene' = $true
+    'workspace-repo-bootstrap' = $true
+    'workspace-cross-repo-coordination' = $true
+    'workspace-task-closeout' = $true
+    'rendered-frontend-qa' = $true
+    'workspace-package-inventory-sync' = $true
+    'runtime-safe-reload' = $true
+    'workspace-discord-closeout-notification' = $true
     'deprecation-and-migration' = $false
     'code-review-and-quality' = $false
     'git-workflow-and-versioning' = $false
@@ -96,4 +105,4 @@ foreach ($file in $pluginFiles) {
     }
 }
 
-Write-Host "Plugin structure valid: $($expected.Count) skills (8 implicit, 3 explicit-only)."
+Write-Host "Plugin structure valid: $($expected.Count) skills (17 implicit, 3 explicit-only)."

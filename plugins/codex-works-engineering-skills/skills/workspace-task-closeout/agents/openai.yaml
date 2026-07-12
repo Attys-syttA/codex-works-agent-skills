@@ -1,0 +1,7 @@
+interface:
+  display_name: "Workspace Task Closeout"
+  short_description: "Synchronize state docs checks and task lifecycle"
+  default_prompt: "Use $workspace-task-closeout to close this task with factual documentation and checks."
+
+policy:
+  allow_implicit_invocation: true

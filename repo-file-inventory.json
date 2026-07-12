@@ -44,23 +44,28 @@
     },
     {
       "path": "CHANGELOG.dev.md",
-      "sha256": "f179808e7d1c5b8041d5abd61072188752512cc37b7f8130e5e9f4e77a36b813",
-      "bytes": 1488
+      "sha256": "4db0591ee578d325a3d91c6c9d191316a30bffa26185a35919ccbf7a41037346",
+      "bytes": 3171
     },
     {
       "path": "docs/ACTIVATION_MATRIX.md",
-      "sha256": "d5df8bd05ae027dbe82c5dbecda5b7eb3ecb20e7ffcd68ff02b72768ef572a4e",
-      "bytes": 1617
+      "sha256": "e266b6a25f3620523419a1544100d46157ce183671595e78468b45f53c8d5158",
+      "bytes": 2841
+    },
+    {
+      "path": "docs/AGENTS_SKILL_EXTRACTION_AUDIT.md",
+      "sha256": "be46859a3ad78c9db7071a10b992d3e5c10db35aafcf9615f21d3475797bd4b9",
+      "bytes": 3315
     },
     {
       "path": "docs/SECURITY_MODEL.md",
-      "sha256": "337a88882c5d565e2d9f904119fa01e390bb7e526bd8cfa689ea26ef5b562472",
-      "bytes": 2531
+      "sha256": "bd79b36392c2467b7a5a066962608df074fead3c3e158939e89475c6d0672080",
+      "bytes": 3462
     },
     {
       "path": "docs/SOURCE_REVIEW.md",
-      "sha256": "8cd50cdae1f189d91a4b7ce83a187dba692056382b7512377687f9d6a67241ef",
-      "bytes": 1830
+      "sha256": "fa67fc940e37b1e181eb456db6e64cf3bc56be628ce69daf5f4bde2319ad61d4",
+      "bytes": 2186
     },
     {
       "path": "docs/UPSTREAM_UPDATE_PROCEDURE.md",
@@ -74,8 +79,8 @@
     },
     {
       "path": "plugins/codex-works-engineering-skills/.codex-plugin/plugin.json",
-      "sha256": "ee09dcbd734d8ad312cb89aa0586d07c7d9307fd4fe088d737ed30e77ba3dec9",
-      "bytes": 896
+      "sha256": "e77f252190966bed8503b1761739c80f747b55eb1cbc9333c09db01060cc2722",
+      "bytes": 948
     },
     {
       "path": "plugins/codex-works-engineering-skills/LICENSE.upstream",
@@ -183,6 +188,26 @@
       "bytes": 1983
     },
     {
+      "path": "plugins/codex-works-engineering-skills/skills/rendered-frontend-qa/agents/openai.yaml",
+      "sha256": "01cec260115a4e49c58425779582cdda91ff5918f1ca67f7ce7be9b015c23840",
+      "bytes": 269
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/rendered-frontend-qa/SKILL.md",
+      "sha256": "45fd44a905f326dc69f4a090453750dc154729b59afbf4da255d78cf1797cb43",
+      "bytes": 1925
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/runtime-safe-reload/agents/openai.yaml",
+      "sha256": "21983f469f74e8246c5de8e48a3f2ac66e442cfd02e05ad48548cbcc7b83e227",
+      "bytes": 277
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/runtime-safe-reload/SKILL.md",
+      "sha256": "fd9adc0c4434c125bae8e9ca1395f6b49af4e20fe05a60d1b46715c482a7f2bd",
+      "bytes": 1868
+    },
+    {
       "path": "plugins/codex-works-engineering-skills/skills/security-and-hardening/agents/openai.yaml",
       "sha256": "4323abcc2adcc34de2135c64d926cebaa054d43e66f367d98eff48179d9f987f",
       "bytes": 280
@@ -213,19 +238,89 @@
       "bytes": 1988
     },
     {
+      "path": "plugins/codex-works-engineering-skills/skills/windows-mcp-startup-hygiene/agents/openai.yaml",
+      "sha256": "024ae843b676df371ddb28c1acb1c9eabc5b106ad05d674be953a449b3531f0d",
+      "bytes": 278
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/windows-mcp-startup-hygiene/SKILL.md",
+      "sha256": "f1bccf4efd55617c7a2cd8b40a316efbf65d65556d4e6338dba0e70cdba3cbce",
+      "bytes": 2379
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/workspace-cross-repo-coordination/agents/openai.yaml",
+      "sha256": "8689d731b48b6673f49f08ce3166fe986c6289e21215b9172442cc0d95490d2b",
+      "bytes": 284
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/workspace-cross-repo-coordination/SKILL.md",
+      "sha256": "1e65404859301e857fb982187982b0a3cf247cc8f9ad1d7fc195b58a84ba8c33",
+      "bytes": 1649
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/workspace-discord-closeout-notification/agents/openai.yaml",
+      "sha256": "414005b770480b859b61e16e38b0208fa8b64fd7759294d9b9fe12c05aa980e7",
+      "bytes": 278
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/workspace-discord-closeout-notification/SKILL.md",
+      "sha256": "ce83580a7b048ee484dc13dec58ceb2d53524beffb2b994d77cdbbcab6182c4c",
+      "bytes": 4045
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/workspace-package-inventory-sync/agents/openai.yaml",
+      "sha256": "b1bc46eccc41f3dd7d70dada99a161f092380a0a9b82c59995d164b74a8c39f9",
+      "bytes": 289
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/workspace-package-inventory-sync/SKILL.md",
+      "sha256": "afd86cb3e7f5e3171ba56114886c80f7a8a76a9f5a7ca7adf091a2b2dd332683",
+      "bytes": 2080
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/workspace-repo-bootstrap/agents/openai.yaml",
+      "sha256": "ffae4d213ca66cc5f4bfde44ecb50b7fd012c7fcb34eabeefcdafec1cd19670d",
+      "bytes": 267
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/workspace-repo-bootstrap/SKILL.md",
+      "sha256": "aa3588383fb3d24cc47963aa8491d6e3f4546c874dfdec021737236565a2b630",
+      "bytes": 2160
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/workspace-repo-startup/agents/openai.yaml",
+      "sha256": "6b0a706838b23100c18b454cfbf7009719d33c9c150d59e9b4808817ff72e522",
+      "bytes": 270
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/workspace-repo-startup/SKILL.md",
+      "sha256": "b1a18828939cc1c954bdd93304516b492a25875411aba226bcc03b86cb15e312",
+      "bytes": 2005
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/workspace-task-closeout/agents/openai.yaml",
+      "sha256": "7a2efb760c5747dea9cbfc594b2634fe56ea51e6a02e954ddf0703226a161337",
+      "bytes": 275
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/workspace-task-closeout/SKILL.md",
+      "sha256": "99c9224ef1a2b05527f3df322f0bf30e3d7d7dad05d18cf26cf6df3a15d359ae",
+      "bytes": 1968
+    },
+    {
       "path": "plugins/codex-works-engineering-skills/THIRD_PARTY_NOTICES.md",
       "sha256": "5cb370ec5883960925c1d16f06448550b4b66888dd94bab3defa798023310117",
       "bytes": 790
     },
     {
       "path": "README.md",
-      "sha256": "e33dbb66a06d34394c27bf2200535e78b4e106909edfc0353ad0f8462f1e5c64",
-      "bytes": 1989
+      "sha256": "be2cdd71866b502e36a0c292efe063db06a84cf385d2392fdb22356594201b75",
+      "bytes": 3447
     },
     {
       "path": "STATE.md",
-      "sha256": "a16d78a1649d852fef77301a5c30dd74b65bc2bc2d37d1a15ed4373af9106079",
-      "bytes": 1987
+      "sha256": "55778b779ea44256a91580f01a18a9b15b641a10b5fe60daaa989bee32980442",
+      "bytes": 2885
     },
     {
       "path": "tools/audit-skill-content.ps1",
@@ -239,8 +334,8 @@
     },
     {
       "path": "tools/validate-plugin.ps1",
-      "sha256": "2c615418613a454a240c8d4c6f52ee1d691839f5a7f948a712310449a0c015c9",
-      "bytes": 5957
+      "sha256": "b9b6593c8a0374a9dc4be96f4ff79b59279bc0ff0dfe691ca88090430b76bd68",
+      "bytes": 6332
     },
     {
       "path": "tools/verify-upstream.ps1",

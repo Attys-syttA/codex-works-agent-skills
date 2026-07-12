@@ -1,0 +1,6 @@
+interface:
+  display_name: "Workspace Discord Closeout"
+  short_description: "Notify the active repository channel safely"
+  default_prompt: "Use $workspace-discord-closeout-notification to send a sanitized repository closeout update."
+policy:
+  allow_implicit_invocation: true
