@@ -1,0 +1,7 @@
+interface:
+  display_name: "Code Review and Quality"
+  short_description: "Review scoped changes for concrete correctness risks"
+  default_prompt: "Use $code-review-and-quality to review this scoped change for concrete defects."
+
+policy:
+  allow_implicit_invocation: false

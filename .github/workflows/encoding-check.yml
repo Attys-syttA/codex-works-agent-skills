@@ -1,0 +1,26 @@
+name: Encoding check
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  utf8-lf:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify UTF-8 without BOM and LF endings
+        shell: pwsh
+        run: |
+          $failed = $false
+          $utf8 = [Text.UTF8Encoding]::new($false, $true)
+          git ls-files | ForEach-Object {
+            $bytes = [IO.File]::ReadAllBytes($_)
+            try { $text = $utf8.GetString($bytes) } catch { Write-Error "Invalid UTF-8: $_"; $failed = $true; return }
+            if ($bytes.Length -ge 3 -and $bytes[0] -eq 0xEF -and $bytes[1] -eq 0xBB -and $bytes[2] -eq 0xBF) { Write-Error "UTF-8 BOM: $_"; $failed = $true }
+            if ($text.Contains("`r`n")) { Write-Error "CRLF: $_"; $failed = $true }
+          }
+          if ($failed) { exit 1 }

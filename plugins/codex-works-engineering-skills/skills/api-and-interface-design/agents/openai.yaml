@@ -1,0 +1,7 @@
+interface:
+  display_name: "API and Interface Design"
+  short_description: "Design stable APIs schemas and component contracts"
+  default_prompt: "Use $api-and-interface-design to refine this public contract without breaking callers."
+
+policy:
+  allow_implicit_invocation: true

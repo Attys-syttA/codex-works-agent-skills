@@ -1,0 +1,7 @@
+interface:
+  display_name: "Test-Driven Development"
+  short_description: "Build behavior changes around focused regression tests"
+  default_prompt: "Use $test-driven-development to implement this behavior with a focused regression test."
+
+policy:
+  allow_implicit_invocation: true

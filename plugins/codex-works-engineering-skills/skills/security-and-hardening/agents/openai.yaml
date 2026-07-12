@@ -1,0 +1,7 @@
+interface:
+  display_name: "Security and Hardening"
+  short_description: "Review sensitive boundaries and reduce security risk"
+  default_prompt: "Use $security-and-hardening to assess this sensitive boundary and propose safe controls."
+
+policy:
+  allow_implicit_invocation: true

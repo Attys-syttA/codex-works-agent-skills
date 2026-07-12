@@ -1,0 +1,7 @@
+interface:
+  display_name: "Performance Optimization"
+  short_description: "Measure bottlenecks before making targeted improvements"
+  default_prompt: "Use $performance-optimization to measure this slowdown and target the proven bottleneck."
+
+policy:
+  allow_implicit_invocation: true

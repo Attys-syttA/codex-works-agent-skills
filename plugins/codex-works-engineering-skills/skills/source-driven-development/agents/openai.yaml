@@ -1,0 +1,7 @@
+interface:
+  display_name: "Source-Driven Development"
+  short_description: "Verify version-sensitive code against primary sources"
+  default_prompt: "Use $source-driven-development to verify this version-sensitive implementation against primary sources."
+
+policy:
+  allow_implicit_invocation: true

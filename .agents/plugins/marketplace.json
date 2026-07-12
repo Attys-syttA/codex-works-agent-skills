@@ -1,0 +1,20 @@
+{
+  "name": "codex-works-local",
+  "interface": {
+    "displayName": "Codex Works Local"
+  },
+  "plugins": [
+    {
+      "name": "codex-works-engineering-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-works-engineering-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

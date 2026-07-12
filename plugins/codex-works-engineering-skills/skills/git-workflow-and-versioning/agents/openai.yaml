@@ -1,0 +1,7 @@
+interface:
+  display_name: "Git Workflow and Versioning"
+  short_description: "Guide authorized Git checkpoints and version changes"
+  default_prompt: "Use $git-workflow-and-versioning to plan the explicitly authorized Git and versioning steps."
+
+policy:
+  allow_implicit_invocation: false
