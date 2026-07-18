@@ -34,8 +34,8 @@
     },
     {
       "path": ".gitignore",
-      "sha256": "309735b18254e51308bbffc7696ae6cff9a843cfe5d86297193e31168d07b7ea",
-      "bytes": 29
+      "sha256": "7bc0d711f97960ac14aaa36d5c80b4dc4f6a8a6d9292719153a56158771e0954",
+      "bytes": 45
     },
     {
       "path": "AGENTS.md",
@@ -44,13 +44,13 @@
     },
     {
       "path": "CHANGELOG.dev.md",
-      "sha256": "4db0591ee578d325a3d91c6c9d191316a30bffa26185a35919ccbf7a41037346",
-      "bytes": 3171
+      "sha256": "d0c6c40aa46638344675c761057527f1b36f021b2455e279918add0cd3ec6fb1",
+      "bytes": 4162
     },
     {
       "path": "docs/ACTIVATION_MATRIX.md",
-      "sha256": "e266b6a25f3620523419a1544100d46157ce183671595e78468b45f53c8d5158",
-      "bytes": 2841
+      "sha256": "74c891ecbc38db08b6362c2e4dbc4d0087710ae68b1ea2516d35dc9580795e48",
+      "bytes": 2990
     },
     {
       "path": "docs/AGENTS_SKILL_EXTRACTION_AUDIT.md",
@@ -58,14 +58,29 @@
       "bytes": 3315
     },
     {
+      "path": "docs/HUNGARIAN_PROSE_EDITOR_STYLE_EVALUATION.md",
+      "sha256": "3017e93c1c8b870cb85af97b318b053914a8fe57b55a83b540f55558fc90186d",
+      "bytes": 4283
+    },
+    {
+      "path": "docs/magyar_nyelv_tan_skill_forrasok.md",
+      "sha256": "6bcb5acf11107911dd7019898f88767c9cf266df94fe90e97289b930f04acc66",
+      "bytes": 5408
+    },
+    {
+      "path": "docs/magyar_nyelv_tan_skill.md",
+      "sha256": "c61babc7399168c27f4e00e2c626faecdf739cf04c66d5e3ec9ea58bbd185e92",
+      "bytes": 24342
+    },
+    {
       "path": "docs/SECURITY_MODEL.md",
-      "sha256": "bd79b36392c2467b7a5a066962608df074fead3c3e158939e89475c6d0672080",
-      "bytes": 3462
+      "sha256": "5c7bb1b18aefb9ab0722f05db6531360bad198b4f4f9154a8ec35f13acf25e44",
+      "bytes": 4085
     },
     {
       "path": "docs/SOURCE_REVIEW.md",
-      "sha256": "fa67fc940e37b1e181eb456db6e64cf3bc56be628ce69daf5f4bde2319ad61d4",
-      "bytes": 2186
+      "sha256": "9cfcdf8f559137f0e65042d5ef7be83b95a5ad87bf5da16986443d97abcd0ad8",
+      "bytes": 4515
     },
     {
       "path": "docs/UPSTREAM_UPDATE_PROCEDURE.md",
@@ -79,8 +94,8 @@
     },
     {
       "path": "plugins/codex-works-engineering-skills/.codex-plugin/plugin.json",
-      "sha256": "e77f252190966bed8503b1761739c80f747b55eb1cbc9333c09db01060cc2722",
-      "bytes": 948
+      "sha256": "c5c19cc1c606fa145e7233189e0f215ebab8065a84238372a62c9e5d44de4694",
+      "bytes": 990
     },
     {
       "path": "plugins/codex-works-engineering-skills/LICENSE.upstream",
@@ -91,6 +106,46 @@
       "path": "plugins/codex-works-engineering-skills/references/definition-of-done.md",
       "sha256": "41a470e6857d68b69495505f8abb0c9571532719d59a91b758c997693f25ed21",
       "bytes": 1583
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/references/hungarian-prose-editor/ai-style-smells-hu.md",
+      "sha256": "89ca38b36b2c53d59d02628e43adf46cf8574392d1b2160ca6c03cf7bf80dad2",
+      "bytes": 2010
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/references/hungarian-prose-editor/approved-examples.md",
+      "sha256": "c5802b1df294a7af37a8a6a87f1a6e14af5a121310062c1e005e227d98bf6db6",
+      "bytes": 6333
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/references/hungarian-prose-editor/editorial-checklist.md",
+      "sha256": "4196bd62aad784d72abf71e5149b124a62d7fcbc8791c01d8a6042dcaf2c5db3",
+      "bytes": 864
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/references/hungarian-prose-editor/README.md",
+      "sha256": "b3e799814c4bf6a917bf44c691dd35d9618b2681240a69f9f2cae81e1bbe5277",
+      "bytes": 1335
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/references/hungarian-prose-editor/source-register.md",
+      "sha256": "c02fe87f944972c42c3a2df0b09c3929742f5863ecdc71d5a190ebc4929b14ad",
+      "bytes": 3241
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/references/hungarian-prose-editor/source-setup.md",
+      "sha256": "33fa09d86fb5a224388e78129edb50f4450a2772d38585f7061d4d30b14bd335",
+      "bytes": 1465
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/references/hungarian-prose-editor/style-modes.md",
+      "sha256": "d6405338b05ea8ac044921af4e9136910270576e4f270079c718387dd9bd6b78",
+      "bytes": 2267
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/references/hungarian-prose-editor/terminology-preferences.md",
+      "sha256": "50efdb2bc6e53fbdc678cb86fb540fccdcd24373e634cb9d78e8fa2c2d224b85",
+      "bytes": 1550
     },
     {
       "path": "plugins/codex-works-engineering-skills/references/performance-checklist.md",
@@ -166,6 +221,16 @@
       "path": "plugins/codex-works-engineering-skills/skills/git-workflow-and-versioning/SKILL.md",
       "sha256": "74039654f68a6bb181686a4631d24d96d7129d6e9b0e48f54c4cc2a40ef38763",
       "bytes": 1754
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/hungarian-prose-editor/agents/openai.yaml",
+      "sha256": "22cd89c142ea5a79a11d58d3b56635fb4d1f18e6f8fff5dd0d8e27061f2b3088",
+      "bytes": 289
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/hungarian-prose-editor/SKILL.md",
+      "sha256": "aae00d3d8b079661acf35c1f73f34ea766553ad33d9f4f6c89126748c3689033",
+      "bytes": 8058
     },
     {
       "path": "plugins/codex-works-engineering-skills/skills/incremental-implementation/agents/openai.yaml",
@@ -314,13 +379,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "be2cdd71866b502e36a0c292efe063db06a84cf385d2392fdb22356594201b75",
-      "bytes": 3447
+      "sha256": "1967cff9a45447684680fb050e939ad0db94d13400d090d1e5c7c2d1a4dfdd48",
+      "bytes": 3833
     },
     {
       "path": "STATE.md",
-      "sha256": "55778b779ea44256a91580f01a18a9b15b641a10b5fe60daaa989bee32980442",
-      "bytes": 2885
+      "sha256": "2b5e0c0954b3dbfc69468fd016bf296ea13664f71266aa5758f02b781b499275",
+      "bytes": 3739
     },
     {
       "path": "tools/audit-skill-content.ps1",
@@ -334,8 +399,8 @@
     },
     {
       "path": "tools/validate-plugin.ps1",
-      "sha256": "b9b6593c8a0374a9dc4be96f4ff79b59279bc0ff0dfe691ca88090430b76bd68",
-      "bytes": 6332
+      "sha256": "732ed8892c38f2d4aa4cc24be56661f1d21171dfae5d4a6143289ff2b337ebc0",
+      "bytes": 6370
     },
     {
       "path": "tools/verify-upstream.ps1",

@@ -1,15 +1,15 @@
 # Codex Works Engineering Skills
 
 Local, security-curated Codex plugin for repositories governed by the
-`codex_works` parent policy. It packages twenty engineering and workspace
-workflow skills: eleven curated from a pinned upstream commit and nine authored
-for the local workspace operating model. The plugin contains no hooks, MCP
+`codex_works` parent policy. It packages twenty-one engineering, workspace
+workflow, and Hungarian prose skills: eleven curated from a pinned upstream
+commit and ten authored for the local workspace operating model. The plugin contains no hooks, MCP
 servers, apps, commands, personas, credentials, or executable scripts.
 
 ## Activation
 
 - Seventeen low-risk workflow skills allow narrowly scoped implicit selection.
-- Git/versioning, code review, and migration/deprecation are explicit-only.
+- Git/versioning, code review, migration/deprecation, and Hungarian prose editing are explicit-only.
 - Explicit use is available as `$skill-name` after installation.
 - Installation is user-profile level; workspace scoping is enforced by skill
   descriptions, safety boundaries, and the `codex_works` parent `AGENTS.md`.
@@ -23,6 +23,12 @@ frontend QA, inventory/package synchronization, and sanitized Discord closeout
 notification. Detailed procedures live in skills, including safe local runtime
 reload decisions; `AGENTS.md` files retain mandatory policy, authority, and
 repo-specific facts.
+
+`hungarian-prose-editor` is an explicit-only local writing skill for clear
+Hungarian official, natural, and technical prose. It contains original guidance
+and source-register discipline only; referenced NAV PDFs may be kept as local
+working copies, but remain outside the plugin package until repository
+redistribution status is verified.
 
 ## Discord closeout integration
 

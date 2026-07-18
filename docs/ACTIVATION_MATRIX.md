@@ -29,6 +29,7 @@
 | `deprecation-and-migration` | May influence compatibility, data, or deletion decisions |
 | `code-review-and-quality` | Requires an explicitly resolved review target and read-only scope |
 | `git-workflow-and-versioning` | May influence Git, version, release, or remote state |
+| `hungarian-prose-editor` | Changes user-facing Hungarian wording and must not silently affect code, logs, legal text, quotes, or structured data |
 
 Explicit invocation selects guidance only. It does not authorize the actions
 described by a skill.

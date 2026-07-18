@@ -1,13 +1,13 @@
 # STATE
 
-Last updated: 2026-07-12
+Last updated: 2026-07-19
 
 ## Current state
 
-- Plugin: `codex-works-engineering-skills` base version `1.2.0`.
+- Plugin: `codex-works-engineering-skills` base version `1.3.0`.
 - Marketplace: `codex-works-local`.
 - Upstream pinned to `849850e03972c84a909286e8fddbdc8166600b0f`.
-- Twenty curated skills: seventeen implicit-capable and three explicit-only.
+- Twenty-one curated skills: seventeen implicit-capable and four explicit-only.
 - Installed plugin contains no executable code, hooks, MCPs, apps, commands, or personas.
 - Remote: `origin` points to `Attys-syttA/codex-works-agent-skills`; publication branch is `agent/initial-engineering-skills` based on the GitHub-created MIT-license commit.
 
@@ -28,7 +28,19 @@ Last updated: 2026-07-12
 - Outside-workspace trivial spelling smoke test remained a one-word response.
 - Fresh CLI tests required `-m gpt-5.4-mini`: profile default `gpt-5.6-sol` is unsupported by installed Codex CLI `0.139.0` and requests a CLI upgrade.
 - UTF-8 without BOM and LF-only encoding check passed.
-- Deterministic inventory check passed for 49 files.
+- `hungarian-prose-editor` was added as an explicit-only local skill with three modes:
+  `official-clear`, `natural-neutral`, and `technical-concise`.
+- The Hungarian prose references are original derived guidance; the listed PDF
+  sources remain local external inputs and are not packaged into the plugin.
+- NAV source synchronization is documented in
+  `plugins/codex-works-engineering-skills/references/hungarian-prose-editor/source-setup.md`.
+  Missing workplace PDFs should be downloaded from the recorded NAV page into
+  `.local-sources/hungarian-prose-editor/nav/`.
+- `validate-plugin.ps1`, `audit-skill-content.ps1`, `verify-upstream.ps1`,
+  `build-inventory.ps1 -Check`, `git diff --check`, UTF-8/BOM/CRLF check,
+  `ggshield secret scan repo .`, and `quick_validate.py` passed for the
+  Hungarian prose skill addition.
+- Deterministic inventory check passed for 82 files.
 - `ggshield secret scan repo .` passed with no secrets found.
 - `git diff --check`, protected-repository audit, shared workspace baseline/encoding checks, and parent-policy hash parity passed.
 - `E-SPER` remained clean and unchanged.
@@ -38,4 +50,5 @@ Last updated: 2026-07-12
 
 ## Next step
 
-- Review and merge the draft publication PR to `main`, then start a new Codex app thread for routine use.
+- Commit the `1.3.0` Hungarian prose skill addition locally. Push, install, or
+  publish only after explicit user authorization.

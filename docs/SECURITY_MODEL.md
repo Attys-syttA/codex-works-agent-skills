@@ -25,6 +25,8 @@ capabilities and must be inspected before manual execution.
 | Over-broad automatic activation | Seventeen narrow implicit descriptions; three high-risk skills implicit-disabled |
 | Use outside codex_works | Metadata and body restrict implicit use to repos governed by codex_works policy |
 | AGENTS policy loss during extraction | Extraction audit maps each removed procedure; mandatory invariants and repo-specific facts remain local |
+| Prose-editing overreach | `hungarian-prose-editor` is explicit-only and must preserve facts, quotes, legal text, structured data, code, logs, and identifiers |
+| Copyright leakage from language guides | Publicly downloadable source PDFs may be used as local working copies, but stay outside the plugin package until repository redistribution is verified; reference files contain original derived guidance only |
 
 ## Workspace-scope limitation
 
@@ -36,6 +38,10 @@ is therefore a layered behavioral control:
 2. every skill repeats the authority boundary;
 3. the parent `AGENTS.md` defines the allowlist and precedence;
 4. high-risk skills disable implicit invocation in `agents/openai.yaml`.
+
+The Hungarian prose skill is a narrow local-content exception: it may improve
+Hungarian wording only when explicitly invoked, and cannot authorize filing,
+publishing, legal advice, or external communication.
 
 The Discord closeout skill is a narrow exception for external state: it can run
 only where the parent policy already mandates the notification. The plugin still

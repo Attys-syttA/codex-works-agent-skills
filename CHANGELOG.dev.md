@@ -1,5 +1,21 @@
 # Development changelog
 
+## 2026-07-19
+
+- Began version `1.3.0` by adding the explicit-only `hungarian-prose-editor` skill.
+- Added three supported modes: `official-clear`, `natural-neutral`, and
+  `technical-concise`, with strict preservation of facts, address form,
+  protected spans, technical identifiers, and legal/procedural meaning.
+- Added original reference materials for mode selection, AI-style cleanup,
+  editorial checks, terminology preferences, and approved Hungarian examples.
+- Recorded the user-supplied local PDF source set in a source register without
+  copying the PDFs or embedding long source passages in the plugin.
+- Added a NAV source setup reminder for synchronized machines: if the PDFs are
+  missing, download them from `https://nav.gov.hu/kiadvanyok/kozerthetosegi-program`
+  into `.local-sources/hungarian-prose-editor/nav/`.
+- Validated plugin structure, skill content audit, upstream provenance, inventory,
+  whitespace, encoding, secret scan, and the system skill quick validator.
+
 ## 2026-07-12
 
 - Began version `1.2.0` with `workspace-discord-closeout-notification`.

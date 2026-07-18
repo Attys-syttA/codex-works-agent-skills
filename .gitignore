@@ -1,3 +1,4 @@
 .worktree-cache/
+.local-sources/
 *.tmp
 *.log

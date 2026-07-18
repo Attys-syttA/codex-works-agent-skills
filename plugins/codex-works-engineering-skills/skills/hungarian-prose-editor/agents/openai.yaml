@@ -1,0 +1,7 @@
+interface:
+  display_name: "Hungarian Prose Editor"
+  short_description: "Write clear natural Hungarian prose"
+  default_prompt: "Use $hungarian-prose-editor to revise this Hungarian text in the requested register without changing its meaning."
+
+policy:
+  allow_implicit_invocation: false
