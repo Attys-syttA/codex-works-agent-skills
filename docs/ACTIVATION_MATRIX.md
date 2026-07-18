@@ -21,6 +21,7 @@
 | `workspace-package-inventory-sync` | File-role, inventory, runtime mirror, or package parity change | Source change with no derived artifact contract |
 | `runtime-safe-reload` | Changed code may leave a local runtime or engine stale | No running consumer of the changed code |
 | `workspace-discord-closeout-notification` | A material repository task completes, pauses, or becomes blocked under an authorizing parent policy | Ordinary questions, progress updates, or work outside codex_works |
+| `hungarian-prose-editor` | User names `$hungarian-prose-editor` or clearly asks to use that exact skill for Hungarian prose | Generic prose work, code, logs, legal text, foreign-language prose, or structured data |
 
 ## Explicit-only
 
@@ -29,7 +30,6 @@
 | `deprecation-and-migration` | May influence compatibility, data, or deletion decisions |
 | `code-review-and-quality` | Requires an explicitly resolved review target and read-only scope |
 | `git-workflow-and-versioning` | May influence Git, version, release, or remote state |
-| `hungarian-prose-editor` | Changes user-facing Hungarian wording and must not silently affect code, logs, legal text, quotes, or structured data |
 
 Explicit invocation selects guidance only. It does not authorize the actions
 described by a skill.

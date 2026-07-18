@@ -2,6 +2,9 @@
 
 ## 2026-07-19
 
+- Exposed `hungarian-prose-editor` to the Codex available-skills list by
+  enabling its OpenAI agent policy while keeping the skill text explicitly
+  gated to direct `$hungarian-prose-editor` use.
 - Began version `1.3.0` by adding the explicit-only `hungarian-prose-editor` skill.
 - Added three supported modes: `official-clear`, `natural-neutral`, and
   `technical-concise`, with strict preservation of facts, address form,

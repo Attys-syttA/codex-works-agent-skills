@@ -44,13 +44,13 @@
     },
     {
       "path": "CHANGELOG.dev.md",
-      "sha256": "d0c6c40aa46638344675c761057527f1b36f021b2455e279918add0cd3ec6fb1",
-      "bytes": 4162
+      "sha256": "6de0582d2cd1dc895cb265839bd1c59268ff8646296480f396d508cb6e6063f1",
+      "bytes": 4359
     },
     {
       "path": "docs/ACTIVATION_MATRIX.md",
-      "sha256": "74c891ecbc38db08b6362c2e4dbc4d0087710ae68b1ea2516d35dc9580795e48",
-      "bytes": 2990
+      "sha256": "69470f671679ba098bfe230c734bec0dfb8fb46edd26e86ed811f43586c0702a",
+      "bytes": 3058
     },
     {
       "path": "docs/AGENTS_SKILL_EXTRACTION_AUDIT.md",
@@ -224,8 +224,8 @@
     },
     {
       "path": "plugins/codex-works-engineering-skills/skills/hungarian-prose-editor/agents/openai.yaml",
-      "sha256": "22cd89c142ea5a79a11d58d3b56635fb4d1f18e6f8fff5dd0d8e27061f2b3088",
-      "bytes": 289
+      "sha256": "8c028df34b2b070c35ba6fcc450a3b9e3d363aa7dd1c769e3222417ca0b995cf",
+      "bytes": 288
     },
     {
       "path": "plugins/codex-works-engineering-skills/skills/hungarian-prose-editor/SKILL.md",
@@ -379,13 +379,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "1967cff9a45447684680fb050e939ad0db94d13400d090d1e5c7c2d1a4dfdd48",
-      "bytes": 3833
+      "sha256": "ca8f47f748506c7de3f5b5663893d7ba72293100238eb51170abb629fba82e36",
+      "bytes": 3894
     },
     {
       "path": "STATE.md",
-      "sha256": "2b5e0c0954b3dbfc69468fd016bf296ea13664f71266aa5758f02b781b499275",
-      "bytes": 3739
+      "sha256": "03ffc0ace82d32e6263024135a0869b802dc5890d967a0493aa961c1dc8e98c0",
+      "bytes": 3905
     },
     {
       "path": "tools/audit-skill-content.ps1",
@@ -399,8 +399,8 @@
     },
     {
       "path": "tools/validate-plugin.ps1",
-      "sha256": "732ed8892c38f2d4aa4cc24be56661f1d21171dfae5d4a6143289ff2b337ebc0",
-      "bytes": 6370
+      "sha256": "f024170161839d4b96b5a1b0624445e89b1b8cb3d0f1846b1a4436f6f727adf0",
+      "bytes": 6383
     },
     {
       "path": "tools/verify-upstream.ps1",

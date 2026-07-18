@@ -59,7 +59,7 @@ $expected = [ordered]@{
     'workspace-package-inventory-sync' = $true
     'runtime-safe-reload' = $true
     'workspace-discord-closeout-notification' = $true
-    'hungarian-prose-editor' = $false
+    'hungarian-prose-editor' = $true
     'deprecation-and-migration' = $false
     'code-review-and-quality' = $false
     'git-workflow-and-versioning' = $false
@@ -106,4 +106,4 @@ foreach ($file in $pluginFiles) {
     }
 }
 
-Write-Host "Plugin structure valid: $($expected.Count) skills (17 implicit, 4 explicit-only)."
+Write-Host "Plugin structure valid: $($expected.Count) skills (18 available-list exposed, 3 explicit-only)."

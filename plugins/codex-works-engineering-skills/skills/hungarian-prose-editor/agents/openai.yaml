@@ -4,4 +4,4 @@ interface:
   default_prompt: "Use $hungarian-prose-editor to revise this Hungarian text in the requested register without changing its meaning."
 
 policy:
-  allow_implicit_invocation: false
+  allow_implicit_invocation: true

@@ -7,7 +7,8 @@ Last updated: 2026-07-19
 - Plugin: `codex-works-engineering-skills` base version `1.3.0`.
 - Marketplace: `codex-works-local`.
 - Upstream pinned to `849850e03972c84a909286e8fddbdc8166600b0f`.
-- Twenty-one curated skills: seventeen implicit-capable and four explicit-only.
+- Twenty-one curated skills: eighteen available-list exposed and three
+  explicit-only.
 - Installed plugin contains no executable code, hooks, MCPs, apps, commands, or personas.
 - Remote: `origin` points to `Attys-syttA/codex-works-agent-skills`; publication branch is `agent/initial-engineering-skills` based on the GitHub-created MIT-license commit.
 
@@ -28,7 +29,10 @@ Last updated: 2026-07-19
 - Outside-workspace trivial spelling smoke test remained a one-word response.
 - Fresh CLI tests required `-m gpt-5.4-mini`: profile default `gpt-5.6-sol` is unsupported by installed Codex CLI `0.139.0` and requests a CLI upgrade.
 - UTF-8 without BOM and LF-only encoding check passed.
-- `hungarian-prose-editor` was added as an explicit-only local skill with three modes:
+- `hungarian-prose-editor` is exposed to the Codex available-skills list, while
+  its `SKILL.md` keeps effective use gated to explicit `$hungarian-prose-editor`
+  requests.
+- `hungarian-prose-editor` was added as a local skill with three modes:
   `official-clear`, `natural-neutral`, and `technical-concise`.
 - The Hungarian prose references are original derived guidance; the listed PDF
   sources remain local external inputs and are not packaged into the plugin.

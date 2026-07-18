@@ -8,8 +8,8 @@ servers, apps, commands, personas, credentials, or executable scripts.
 
 ## Activation
 
-- Seventeen low-risk workflow skills allow narrowly scoped implicit selection.
-- Git/versioning, code review, migration/deprecation, and Hungarian prose editing are explicit-only.
+- Eighteen skills are exposed to the Codex available-skills list.
+- Git/versioning, code review, and migration/deprecation remain explicit-only.
 - Explicit use is available as `$skill-name` after installation.
 - Installation is user-profile level; workspace scoping is enforced by skill
   descriptions, safety boundaries, and the `codex_works` parent `AGENTS.md`.
@@ -24,11 +24,12 @@ notification. Detailed procedures live in skills, including safe local runtime
 reload decisions; `AGENTS.md` files retain mandatory policy, authority, and
 repo-specific facts.
 
-`hungarian-prose-editor` is an explicit-only local writing skill for clear
-Hungarian official, natural, and technical prose. It contains original guidance
-and source-register discipline only; referenced NAV PDFs may be kept as local
-working copies, but remain outside the plugin package until repository
-redistribution status is verified.
+`hungarian-prose-editor` is an available-list exposed local writing skill for
+clear Hungarian official, natural, and technical prose. Its `SKILL.md` keeps
+effective use gated to direct `$hungarian-prose-editor` requests. It contains
+original guidance and source-register discipline only; referenced NAV PDFs may
+be kept as local working copies, but remain outside the plugin package until
+repository redistribution status is verified.
 
 ## Discord closeout integration
 
