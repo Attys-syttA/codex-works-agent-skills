@@ -1,14 +1,14 @@
 # Codex Works Engineering Skills
 
 Local, security-curated Codex plugin for repositories governed by the
-`codex_works` parent policy. It packages twenty-one engineering, workspace
+`codex_works` parent policy. It packages twenty-two engineering, workspace
 workflow, and Hungarian prose skills: eleven curated from a pinned upstream
-commit and ten authored for the local workspace operating model. The plugin contains no hooks, MCP
+commit and eleven authored for the local workspace operating model. The plugin contains no hooks, MCP
 servers, apps, commands, personas, credentials, or executable scripts.
 
 ## Activation
 
-- Eighteen skills are exposed to the Codex available-skills list.
+- Nineteen skills are exposed to the Codex available-skills list.
 - Git/versioning, code review, and migration/deprecation remain explicit-only.
 - Explicit use is available as `$skill-name` after installation.
 - Installation is user-profile level; workspace scoping is enforced by skill
@@ -30,6 +30,11 @@ effective use gated to direct `$hungarian-prose-editor` requests. It contains
 original guidance and source-register discipline only; referenced NAV PDFs may
 be kept as local working copies, but remain outside the plugin package until
 repository redistribution status is verified.
+
+`programtervezo` is an available-list exposed local planning skill for saved
+Markdown implementation plans and strict Codex execution prompts. It plans
+before coding, keeps scope discipline, and requires repository-appropriate
+synthetic validation and output evidence for code-level behavior changes.
 
 ## Discord closeout integration
 

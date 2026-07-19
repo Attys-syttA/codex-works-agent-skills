@@ -1,0 +1,7 @@
+interface:
+  display_name: "Programtervezo"
+  short_description: "Plan Codex implementation tasks"
+  default_prompt: "Use $programtervezo to turn this idea into a saved implementation plan before coding."
+
+policy:
+  allow_implicit_invocation: true

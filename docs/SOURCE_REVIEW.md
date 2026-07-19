@@ -44,6 +44,12 @@ publicly downloadable advisory sources. A local working copy is acceptable for
 private analysis, but the PDFs are not copied into the plugin and repository or
 plugin redistribution status remains unverified here.
 
+The `programtervezo` skill is locally authored from the user's planning-assistant
+behavior rules and subsequent clarifications. It contains original procedural
+guidance for saved planning documents, strict execution prompts, scope
+discipline, and fake-data-only synthetic validation. No third-party source text,
+private data, or machine-specific paths are copied into the plugin.
+
 ## Activation acceptance cases
 
 Positive cases include version-sensitive API work, multi-stage implementation,
@@ -93,3 +99,24 @@ Negative cases without explicit skill invocation:
 - Hozz létre új repository baseline-t.
 - Fogalmazd át ezt a nem magyar nyelvű levelet.
 - Csak a vesszőhibákat javítsd.
+
+## Programtervezo activation cases
+
+Positive cases:
+
+- Use `$programtervezo` to create a saved implementation plan for this feature.
+- Készíts részletes fejlesztési tervet, de még ne implementáld.
+- Írj Codex végrehajtási promptot ehhez a refaktorhoz.
+- Bontsd MVP-re és későbbi fázisokra ezt az alkalmazásötletet.
+- Készíts roadmapet és acceptance criteria listát ehhez az automatizáláshoz.
+- Tervezz synthetic validation csomagot és futási eredmény mentést ehhez a változtatáshoz.
+
+Negative cases:
+
+- Javítsd ki ezt a hibát.
+- Futtasd le a teszteket.
+- Commit és push.
+- Magyarázd el ezt a logot.
+- Írd át ezt az egy mondatot.
+- Készíts képet ehhez a weboldalhoz.
+- Nézd meg, fut-e a frontend.

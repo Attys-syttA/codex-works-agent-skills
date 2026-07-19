@@ -4,22 +4,24 @@ Last updated: 2026-07-19
 
 ## Current state
 
-- Plugin: `codex-works-engineering-skills` base version `1.3.0`.
+- Plugin: `codex-works-engineering-skills` base version `1.4.0`.
 - Marketplace: `codex-works-local`.
 - Upstream pinned to `849850e03972c84a909286e8fddbdc8166600b0f`.
-- Twenty-one curated skills: eighteen available-list exposed and three
+- Twenty-two curated skills: nineteen available-list exposed and three
   explicit-only.
 - Installed plugin contains no executable code, hooks, MCPs, apps, commands, or personas.
 - Remote: `origin` points to `Attys-syttA/codex-works-agent-skills`; publication branch is `agent/initial-engineering-skills` based on the GitHub-created MIT-license commit.
 
 ## Validation
 
-- The plugin is installed and enabled as `1.2.0+codex.20260712160310`.
+- The plugin source now targets `1.4.0+codex.20260719110000`; installed
+  runtime availability must be refreshed only after explicit user authorization.
+- The plugin was previously installed and enabled as `1.2.0+codex.20260712160310`.
 - Online provenance verification passed for all 15 curated upstream files.
 - OpenAI plugin validator passed.
 - OpenAI skill validator passed for all 20 skills.
 - Marketplace/plugin installation exposes the cachebuster-reinstalled `1.1.0` build.
-- All 19 skill validators, plugin structure/content audit, 67-file deterministic inventory, upstream provenance, GitGuardian scan, and `git diff --check` passed.
+- All 22 skill validators, plugin structure/content audit, 84-file deterministic inventory, upstream provenance, GitGuardian scan, encoding check, and `git diff --check` passed for the `programtervezo` source addition.
 - Fresh E-SPER read-only smoke selected `workspace-repo-startup`, `rendered-frontend-qa`, and `workspace-task-closeout` after the AGENTS cleanup.
 - The audited shared helper recognized the supervised `CodexBot.exe`, rejected credential-like content, and delivered live sanitized test messages to the configured E-SPER and plugin-repository channels after adding Discord's required User-Agent.
 - Repository channels are resolved from the bot's existing read-only SQLite registration; a separate ignored mapping is needed only as an explicit override.
@@ -34,6 +36,9 @@ Last updated: 2026-07-19
   requests.
 - `hungarian-prose-editor` was added as a local skill with three modes:
   `official-clear`, `natural-neutral`, and `technical-concise`.
+- `programtervezo` was added as an available-list exposed local planning skill
+  for saved Markdown implementation plans, strict Codex execution prompts,
+  scope discipline, and repository-appropriate synthetic validation planning.
 - The Hungarian prose references are original derived guidance; the listed PDF
   sources remain local external inputs and are not packaged into the plugin.
 - NAV source synchronization is documented in
@@ -44,7 +49,7 @@ Last updated: 2026-07-19
   `build-inventory.ps1 -Check`, `git diff --check`, UTF-8/BOM/CRLF check,
   `ggshield secret scan repo .`, and `quick_validate.py` passed for the
   Hungarian prose skill addition.
-- Deterministic inventory check passed for 82 files.
+- Deterministic inventory check passed for 84 files.
 - `ggshield secret scan repo .` passed with no secrets found.
 - `git diff --check`, protected-repository audit, shared workspace baseline/encoding checks, and parent-policy hash parity passed.
 - `E-SPER` remained clean and unchanged.
@@ -54,5 +59,5 @@ Last updated: 2026-07-19
 
 ## Next step
 
-- Commit the `1.3.0` Hungarian prose skill addition locally. Push, install, or
-  publish only after explicit user authorization.
+- Validate the `1.4.0` `programtervezo` skill addition. Commit, push, install,
+  or publish only after explicit user authorization.

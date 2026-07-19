@@ -44,13 +44,13 @@
     },
     {
       "path": "CHANGELOG.dev.md",
-      "sha256": "6de0582d2cd1dc895cb265839bd1c59268ff8646296480f396d508cb6e6063f1",
-      "bytes": 4359
+      "sha256": "81db6a38a1a5c6224b04c2a7f4e20c627b917ae8e890f0fa1c33d7cf8dc65f9e",
+      "bytes": 5025
     },
     {
       "path": "docs/ACTIVATION_MATRIX.md",
-      "sha256": "69470f671679ba098bfe230c734bec0dfb8fb46edd26e86ed811f43586c0702a",
-      "bytes": 3058
+      "sha256": "bc7cd70ce8967026e8dadd1f04fb6d9e0deeda971501ec2c5725ba3c863db70b",
+      "bytes": 3334
     },
     {
       "path": "docs/AGENTS_SKILL_EXTRACTION_AUDIT.md",
@@ -74,13 +74,13 @@
     },
     {
       "path": "docs/SECURITY_MODEL.md",
-      "sha256": "5c7bb1b18aefb9ab0722f05db6531360bad198b4f4f9154a8ec35f13acf25e44",
-      "bytes": 4085
+      "sha256": "d979c9c66f70835188e2047517867c7ed698f2c06bd4fd3842518a1c04527790",
+      "bytes": 4851
     },
     {
       "path": "docs/SOURCE_REVIEW.md",
-      "sha256": "9cfcdf8f559137f0e65042d5ef7be83b95a5ad87bf5da16986443d97abcd0ad8",
-      "bytes": 4515
+      "sha256": "50a702de1515f46cca781f0e17dedff4c84bd720b0b6a7c86ed993feac501ac5",
+      "bytes": 5630
     },
     {
       "path": "docs/UPSTREAM_UPDATE_PROCEDURE.md",
@@ -94,8 +94,8 @@
     },
     {
       "path": "plugins/codex-works-engineering-skills/.codex-plugin/plugin.json",
-      "sha256": "c5c19cc1c606fa145e7233189e0f215ebab8065a84238372a62c9e5d44de4694",
-      "bytes": 990
+      "sha256": "f7e358fb3528a9b6ec6c510963bc0eb78ab1183b8522098895981445af41db7d",
+      "bytes": 1011
     },
     {
       "path": "plugins/codex-works-engineering-skills/LICENSE.upstream",
@@ -253,6 +253,16 @@
       "bytes": 1983
     },
     {
+      "path": "plugins/codex-works-engineering-skills/skills/programtervezo/agents/openai.yaml",
+      "sha256": "5bea74077c1071a1afecfe22b1131f62ce82a870fe30a6c3dbfe83d1138b14d1",
+      "bytes": 248
+    },
+    {
+      "path": "plugins/codex-works-engineering-skills/skills/programtervezo/SKILL.md",
+      "sha256": "dfdcd4ddb2e993b6241f729e30630ec466f7e0d9d182fc2e1d04c97b1b71eb12",
+      "bytes": 8437
+    },
+    {
       "path": "plugins/codex-works-engineering-skills/skills/rendered-frontend-qa/agents/openai.yaml",
       "sha256": "01cec260115a4e49c58425779582cdda91ff5918f1ca67f7ce7be9b015c23840",
       "bytes": 269
@@ -379,13 +389,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "ca8f47f748506c7de3f5b5663893d7ba72293100238eb51170abb629fba82e36",
-      "bytes": 3894
+      "sha256": "0cb136dca08a8c7b5be8673f54fd1062932c85e87581bf1fd3cc437ea2206752",
+      "bytes": 4199
     },
     {
       "path": "STATE.md",
-      "sha256": "03ffc0ace82d32e6263024135a0869b802dc5890d967a0493aa961c1dc8e98c0",
-      "bytes": 3905
+      "sha256": "5a604be20cb67b53f12a924cdb947d4420ceedf4cf71aab573b594e90eccd56a",
+      "bytes": 4362
     },
     {
       "path": "tools/audit-skill-content.ps1",
@@ -399,8 +409,8 @@
     },
     {
       "path": "tools/validate-plugin.ps1",
-      "sha256": "f024170161839d4b96b5a1b0624445e89b1b8cb3d0f1846b1a4436f6f727adf0",
-      "bytes": 6383
+      "sha256": "9c39d1c8b57cc4cc86cb78caa0f7935b15558446f5e5489eb36fee98eaf933ab",
+      "bytes": 6412
     },
     {
       "path": "tools/verify-upstream.ps1",

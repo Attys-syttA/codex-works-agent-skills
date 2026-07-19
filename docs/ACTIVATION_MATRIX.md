@@ -22,6 +22,7 @@
 | `runtime-safe-reload` | Changed code may leave a local runtime or engine stale | No running consumer of the changed code |
 | `workspace-discord-closeout-notification` | A material repository task completes, pauses, or becomes blocked under an authorizing parent policy | Ordinary questions, progress updates, or work outside codex_works |
 | `hungarian-prose-editor` | User names `$hungarian-prose-editor` or clearly asks to use that exact skill for Hungarian prose | Generic prose work, code, logs, legal text, foreign-language prose, or structured data |
+| `programtervezo` | User asks for program planning, saved implementation plans, architecture/MVP roadmaps, backlog breakdowns, or strict Codex execution prompts | Ordinary implementation, direct code edits, generic advice, or tasks where the user did not ask to plan first |
 
 ## Explicit-only
 

@@ -2,6 +2,16 @@
 
 ## 2026-07-19
 
+- Began version `1.4.0` by adding the available-list exposed `programtervezo`
+  skill for saved Markdown
+  implementation plans and strict Codex execution prompts. The skill plans
+  before coding, keeps implementation scope bounded, requires repository-aware
+  plan-file locations, and asks for synthetic fixtures plus observed-result
+  evidence for code-level behavior changes.
+- Validated the `programtervezo` addition with the plugin structure validator,
+  skill content audit, upstream provenance check, all 22 `quick_validate.py`
+  skill checks, deterministic 84-file inventory, UTF-8/LF encoding check,
+  `ggshield secret scan repo .`, and `git diff --check`.
 - Exposed `hungarian-prose-editor` to the Codex available-skills list by
   enabling its OpenAI agent policy while keeping the skill text explicitly
   gated to direct `$hungarian-prose-editor` use.
